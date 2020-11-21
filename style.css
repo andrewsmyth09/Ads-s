@@ -1,0 +1,203 @@
+/* //////////////////// DEFAULT STYLES /////////////////////// */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* Container Styles */
+header {
+    background-color: #42AFEF;
+    height: 100px;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    color: white;
+    padding: 1em;
+}
+
+/* //////////////////// ICONS /////////////////////// */
+
+.menu-icon img {
+    height: 50px;
+    width: 50px;
+}
+
+.menu-icon {
+    float: right;
+    padding: 1.2em;
+    overflow: hidden;
+}
+
+.test {
+    display: none;
+}
+
+/* //////////////////// HOVER SETTINGS /////////////////////// */
+
+.menu-icon:hover .menu {
+    display: inline;
+}
+
+.menu-icon:hover img {
+    display: none;
+}
+
+.select_option:hover {
+    background-color: #42AFEF;
+    border-bottom: 1px solid black;
+}
+
+
+/* //////////////////// HEADER STYLES /////////////////////// */
+
+.head_side {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 20px;
+}
+
+.connections {
+    float: left;
+    margin-left: 10px;
+    background-color:white;
+    border-radius: 7px;
+    border: 2px solid #edebeb;
+}
+
+.connections > p {
+    padding: 0.7em;
+    color: #42AFEF;
+}
+
+.social_media {
+    float: right;
+    margin-right: 10px;
+    padding: 1em;
+    text-align: right;
+    width: 30%;
+}
+
+/* //////////////////// NAVIGATION STYLES /////////////////////// */
+.menu {
+    display: none;
+    /* z-index: 1; */
+}
+
+.select_option {
+    text-transform: uppercase;
+    padding: 0.5em;
+    text-align: center;
+    list-style: none;
+    background-color: #9EB5BF;
+}
+
+.select_option a {
+    text-decoration: none;
+    /* color: #6F6F6F; */
+    color: #FBE7C9;
+}
+
+.nav_container > .company_logo {
+    float: left;
+}
+
+/* //////////////////// MAIN STYLES /////////////////////// */
+/* Upper Photo */
+.photo{
+    height: 300px;
+    width: 100%;
+    background-image: url('/images/printer-1910685_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.description {
+    text-align: center;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+/* School Message */
+.school {
+    height: auto;
+    width: 90%;
+    background-color: #C0C0C0;
+    margin: auto;
+    color: white;
+    padding: 3em 1em;
+    line-height: 2em;
+}
+
+.school > h2 {
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+.school > button {
+    padding: 1em 4em;
+    background-color: #42AFEF;
+    color: white;
+    border: none;
+    margin-top: 1em;
+}
+
+/* Welcome section */
+.welcome {
+    line-height: 2em;
+    background-color: white;
+    color: black;
+}
+
+.welcome > h2 {
+    color: #42AFEF;
+    font-weight: none;
+}
+.welcome_pic {
+    float: left;
+    padding-right: 1em;
+}
+
+/* Sponsor Section */
+.sponsors {
+    width: 100%;
+    background-color: #E1E1E1;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+}
+
+/* //////////////////// FOOTER STYLES /////////////////////// */
+.info_sec {
+    border-right: 2px solid white;
+    width: 90%;
+    margin: 10px auto;
+}
+
